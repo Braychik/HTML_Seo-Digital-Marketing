@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 1600px;
+    height: 75px;
+    background: black;
+    margin: 0 auto;
+}
+
+.conteiner {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.head_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_butt_head {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_logo {
+    width: 44px;
+    height: 38px;
+    margin-top: 18px;
+}
+
+.lupaInHead {
+    width: 26.002px;
+    height: 26.792px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 28px;
+}
+
+.right_butt_head {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.hiddenMedia {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.main_content {
+    width: 1600px;
+    height: 764px;
+    background: #F1E4E6;
+    margin: 0 auto;
+}
+
+.main_men {
+    width: 800.58px;
+    height: 764px;
+}
+
+.content_block {
+    display: flex;
+    align-items: center;
+}
+
+.promo__title {
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.promo__heading {
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.promo__heading span {
+    color: #F16D7F;
+}
+
+.first_card {
+    margin-top: 65px;
+    margin-bottom: 96px;
+}
+
+.cardsInFirstSec {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContText {
+    width: 421px;
+    height: 93.099px;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+}
+
+.textFirstCard {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    margin-left: 100px;
+}
+
+.textFirstCard h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textFirstCard h1 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card1 img {
+    filter: brightness(30%);
+}
+
+.bigCardInfirst {
+    margin-top: 30px;
+}
+
+.bigCardInfirst img {
+    filter: brightness(15%);
+}
+
+.textInBigCard {
+    font-family: Lato;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -115px;
+    margin-left: 495px;
+}
+
+.textInBigCard p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.textInBigCard h1 {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: 700;
+}
+.titleSecCard{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.titleSecCard h1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titleSecCard p {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card2{
+    background: #F8F8F8;
+    padding-bottom: 24px;
+}
+
+.card2 img {
+    width: 360px;
+    height: 420px;
+    margin-bottom: 25px;
+}
+
+.card2 h1 {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+    padding-left: 16px;
+}
+
+.card2 p {
+    width: 314.743px;
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 18px;
+    padding-left: 16px;
+}
+
+.card2 h2 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 16px;
+}
+.secondCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 48px;
+}
+.butt2{
+    display: flex;
+    justify-content: center;
+}
+.batt button{
+    font-family: Lato;
+}
+.butt2 button{
+    width: 212px;
+    height: 48px;
+    background: none;
+    border-color: #FF6A6A;
+    color: #F26376;
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.butt2 .butt:hover{
+    background: #FF6A6A;
+    color: white;
+    border: none;
+}
