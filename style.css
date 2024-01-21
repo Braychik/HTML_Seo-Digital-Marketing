@@ -281,3 +281,53 @@ header {
     color: white;
     border: none;
 }
+@media (max-width: 768px){
+    header {
+        width: 768px;
+    }
+    .main_content{
+        width: 768px;
+        height: 367.567px;
+    }
+    .conteiner{
+        width: 734px;
+    }
+    .main_men{
+        width: 386px;
+        height: 368px;
+    }
+    .card1 img{
+        width: 231.973px;
+        height: 167.617px;
+    }
+    .bigCardInfirst img{
+        width: 734.581px;
+        height: 116.043px;
+    }
+    .textFirstCard{
+        margin-left: 40px;
+        margin-top: -120px;
+    }
+    .textInBigCard{
+        margin-left: 285px;
+        margin-top: -85px;
+    }
+    .secondCards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 16px;
+    }
+    .mainContText{
+        width: 283px;
+        height: 92px;
+        border-left: 12px solid #F16D7F;
+        padding-left: 16px;
+    }
+    .promo__title{
+        font-size: 44px;
+    }
+    .promo__heading{
+        font-size: 24px;
+    }
+}
