@@ -60,6 +60,11 @@ header {
     cursor: pointer;
 }
 
+.burger{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 .main_content {
     width: 1600px;
     height: 764px;
@@ -329,5 +334,65 @@ header {
     }
     .promo__heading{
         font-size: 24px;
+    }
+}
+@media (max-width: 768px){
+    header{
+        width: 375px;
+    }
+    .conteiner{
+        width: 343px;
+    }
+    .hiddenMedia{
+        display: none;
+    }
+    .right_butt_head{
+        justify-content: flex-end;
+    }
+    .main_men{
+        display: none;
+    }
+    .main_content{
+        width: 375px;
+        height: 363px;
+    }
+    .promo__title{
+        font-size: 38px;
+    }
+    .promo__heading{
+        font-size: 20px;
+    }
+    .mainContText{
+        width: 236px;
+        height: 66px;
+        margin-left: 56px;
+        margin-top: 148px;
+    }
+    .cardsInFirstSec{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+        justify-items: center;
+        gap: 19px;
+    }
+    .card1 img{
+        width: 343px;
+        height: 247px;
+    }
+    .textFirstCard{
+        margin-left: 95px;
+        margin-top: -140px;
+    }
+    .bigCardInfirst img{
+        width: 343px;
+        height: 111px;
+    }
+    .textInBigCard{
+        margin-left: 90px;
+    }
+    .secondCards{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 16px;
     }
 }
