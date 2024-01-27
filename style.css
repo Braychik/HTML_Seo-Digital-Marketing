@@ -65,6 +65,18 @@ header {
     border: none;
     cursor: pointer;
 }
+.headerIcon{
+    width: 19px;
+    height: 19px;
+    background: none;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -5px;
+    opacity: 0;
+}
+.right_butt_head:hover .headerIcon{
+    opacity: 1;
+}
 .main_content {
     width: 1600px;
     height: 764px;
@@ -102,6 +114,58 @@ header {
 
 .promo__heading span {
     color: #F16D7F;
+}
+.menu_active{
+    width: 232px;
+    height: 634px;
+    background: white;
+    width: 232px;
+    height: 524px;
+    background: white;
+    margin-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    position: absolute;
+    top: 75px;
+    right: 670px;
+}
+.hidden{
+    display: none;
+}
+
+.menu-heading{
+    color: #000;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.menu-text{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.menu-list{
+    color: #6F6E6E;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    margin-left: 22px;
+}
+.menu-list li{
+    margin-bottom: 11px;
 }
 
 .first_card {
@@ -285,6 +349,34 @@ header {
     background: #FF6A6A;
     color: white;
     border: none;
+}
+.secCartButt{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -250px;
+    border-color: white;
+    color: white;
+    width: 159px;
+    height: 64px;
+    background: none;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0;
+}
+.secCartButt img{
+    width: 26.005px;
+    height: 23.974px;
+    /* margin-right: 11px; */
+}
+.imgCard2:hover{
+    filter: brightness(40%);
+    filter: blur(60%);
+}
+.card2:hover .secCartButt{
+    opacity: 1;
 }
 .fird_card{
     width: 1600px;
