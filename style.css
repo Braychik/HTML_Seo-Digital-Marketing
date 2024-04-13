@@ -371,13 +371,218 @@ header {
     height: 23.974px;
     /* margin-right: 11px; */
 }
-.imgCard2:hover{
+.card2:hover .imgCard2{
     filter: brightness(40%);
     filter: blur(60%);
 }
 .card2:hover .secCartButt{
     opacity: 1;
 }
+.product-box {
+    padding-bottom: 96px;
+  }
+  
+  .product-box__heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #222222;
+  }
+  
+  .product-box__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 6px;
+    color: #9F9F9F;
+  }
+  
+  .product-box__content {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    justify-items: center;
+    gap: 30px;
+  }
+
+.product {
+    position: relative;
+    padding: 5px;
+  }
+  
+  .product:hover .product__img {
+    filter: brightness(0.5);
+  }
+  
+  .product:hover .product__add {
+    display: flex;
+  }
+  
+  .product__img {
+    width: 100%;
+  }
+.product__add {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    width: 139px;
+    height: 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    color: #FFFFFF;
+  }
+  
+  .product__add:hover {
+    box-shadow: 0 0 5px #fff;
+  }
+  
+  .product__add:hover svg path {
+    fill: #F16D7F;
+  }
+  .product__content {
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 16px;
+    gap: 16px;
+  }
+  
+  .product__heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+  }
+  
+  .product__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+  }
+  
+  .product__price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+  }
+  
+  /* .product__ancor{
+    padding: 15px 38px;
+    grid-column: 1/-1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    border: 1px solid #F26376;
+    transition: .1s .1s;
+  }
+    .product__ancor:hover {
+      color: #FFF;
+      background-color: #F26376;
+    } */
+    .cart {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+        justify-items:center;
+        gap: 30px;
+        margin-bottom: 96px;
+      }
+      
+      .cart__heading {
+        grid-column: 1/-1;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: #222222;
+      }
+      
+      .cart__item {
+        position: relative;
+        display: flex;
+        gap: 30px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: #575757;
+        box-shadow: 10px 20px 20px  rgba(10, 5, 5, 0.3);
+      }
+      
+      .cart__img {
+        /* width: 50%; */
+        height: 275px;
+        width: 235px;
+      }
+      
+      .cart__content {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+      }
+      
+      .cart__content__heading {
+        width: 262px;
+        margin-right: 97px;
+        margin-top: 22px;
+        margin-bottom: 42px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #222222;
+      }
+      
+      .product__discription {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      
+      .cart__price {
+        color: #F16D7F;
+      }
+      
+      .quantity {
+        display: flex;
+        align-items: baseline;
+        gap: 30px;
+      }
+      
+      .quantity__count {
+        font-size: 18px;
+        padding: 0 12px;
+        border: 1px solid rgba(0, 0, 0, 0.11);
+      }
+      
+      .dagger {
+        cursor: pointer;
+        position: absolute;
+        width: 18px;
+        top: 28px;
+        right: 22px;
+      }
+
 .fird_card{
     width: 1600px;
     height: 341px;
